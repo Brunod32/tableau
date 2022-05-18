@@ -1,0 +1,35 @@
+table {
+  width:100%
+}
+h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 900;
+}
+caption {
+  font-weight: 900;
+}
+
+thead {
+  background: grey;
+  font-weight: 700;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: chartreuse;
+}
+
+tfoot {
+  background:lightgray;
+  text-align: center;
+}
+
+.italic {
+  font-style: italic;
+  text-align: center;
+}
